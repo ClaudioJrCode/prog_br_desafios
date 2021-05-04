@@ -1,5 +1,5 @@
 div#titulo{
-    font: message-box 15pt Arial;
+    font: normal 15pt Arial;
     border-radius: 25px;
     background-color: rgb(28, 28, 31);
     padding: 15px;
@@ -34,26 +34,31 @@ body {
 }
 
 .container{
+
     position: relative;
     border: 1px solid black;
     overflow: hidden;
     width: 100px;
+    margin: auto;
     
     
 }
 .container img{
     max-width: 100%;
-    transition: all 0.5s;
     transition: .5 ease; 
     transform: scale(1.0);
 }
 .container:hover img{
-    width: 30%;
     transition: .5s ease;
-    transform: (1.2);
+    transform: scale(1.2);
    
 }
+#lista{
+    width:25%;
+    margin: auto;
 
+    
+}
 
 
 
